@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 
 function App() {
   let initTodo;
-  if (localStorage.getItem('todos') === null) {
+  if (localStorage.getItem('todos') == null) {
     initTodo = [];
   } else {
     initTodo = localStorage.getItem('todos');
